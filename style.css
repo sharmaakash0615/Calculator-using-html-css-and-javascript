@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Poppins&display=swap');
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.text-center{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+.bg-red{
+    background-color:red ;
+}
+.mx-auto
+{
+    margin: auto;
+}
+.m-w-20{
+    max-width: 20vw;
+}
+
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction:column;
+}
+.item-center{
+  text-align: center;
+}
+
+.button{
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.row{
+ margin: 4px 0;   
+}
+.row .input{
+    font-size: 20px;
+     margin:0px;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
